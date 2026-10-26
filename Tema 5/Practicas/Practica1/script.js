@@ -87,6 +87,28 @@ console.log(r.comparar(c));
 console.log(c.comparar(r));          
 console.log(r.comparar(r.copia()));  
 
+function escribir(texto){ 
+const pa = document.createElement('P');
+pa.textContent = texto;
+document.body.appendChild(pa);
+}
+
+escribir("Área del rectángulo r: " + r.calcularArea());
+escribir("Área del rectángulo c: " + c.calcularArea());
+escribir("Comparación de r con c: " + r.comparar(c) );
+escribir("Comparación de c con r: " + c.comparar(r) );
+escribir("Comparación de r con su copia: " + r.comparar(r.copia()));      
+
+
+
+
+
+
+
+
+
+
+
 
 
 
