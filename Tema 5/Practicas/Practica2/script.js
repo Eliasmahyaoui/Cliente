@@ -52,7 +52,7 @@ class ordenadorePortatiles extends ordenadores{
     }
 }
 
-const op= new ordenadorePortatiles("Macbook", "Air m4", 512,8,12,9);
+const op= new ordenadorePortatiles("Macbook", "Air m4", 512,8,9);
 
 function escribirOrdenadores(texto){
     
