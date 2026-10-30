@@ -44,4 +44,14 @@ for (let i = 0; i < p.length; i++) {
 }
 
 
-document.addEventListener("contextmenu", (e) => {e.preventDefault()});
+function reaparecer(){
+
+    
+
+}
+
+
+document.addEventListener("contextmenu", (e) => {e.preventDefault()}); 
+
+
+
